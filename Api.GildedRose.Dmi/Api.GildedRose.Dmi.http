@@ -1,0 +1,6 @@
+@Api.GildedRose.Dmi_HostAddress = http://localhost:5047
+
+GET {{Api.GildedRose.Dmi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

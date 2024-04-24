@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5186eac7-11d8-4128-bbe4-b4cf420a668c" ChangeDateTime="04/24/2024 15:41:07">
+    <Property Name="ElementName" Value="[dbo].[Items].[ItemId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Items]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="347ea611-0683-4cc4-ae43-3f82d8e74877" ChangeDateTime="04/24/2024 15:46:15">
+    <Property Name="ElementName" Value="[dbo].[ItemQualityThresholds].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ItemQualityThresholds]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ItemId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d1dc0066-ade9-4900-a9e7-38665eacb40c" ChangeDateTime="04/24/2024 17:25:14">
+    <Property Name="ElementName" Value="[dbo].[ItemQualityChangeIIncrement].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ItemQualityChangeIIncrement]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ItemId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2e1a38a7-24d9-416c-9361-a9858a0f08cc" ChangeDateTime="04/24/2024 17:25:43">
+    <Property Name="ElementName" Value="[dbo].[Items].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Items]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ItemId" />
+  </Operation>
+</Operations>
